@@ -27,7 +27,7 @@ function closeModal(){
 
 function renderCat(){
     const catObject = getSingleCatObject()
-    cosole.log(catObject.image)
+    console.log(catObject.image)
     memeModalInner.innerHTML =  `
         <img 
         class="cat-img" 
