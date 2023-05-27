@@ -27,6 +27,7 @@ function closeModal(){
 
 function renderCat(){
     const catObject = getSingleCatObject()
+    cosole.log(catObject.image)
     memeModalInner.innerHTML =  `
         <img 
         class="cat-img" 
@@ -35,6 +36,7 @@ function renderCat(){
         >
         `
     memeModal.style.display = 'flex'
+    
 }
 
 function getSingleCatObject(){
